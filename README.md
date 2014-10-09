@@ -16,7 +16,7 @@ Actions
 -------
 * **should** be able to filter nodes clientside
 * **must** be able to filter nodes serverside
-* **should** be able to support multiple tree-roots/mountpoints
+* **must** be able to support multiple tree-roots/mountpoints (e.g. in pagetree)
 * **must** be able to display a context menu with 2 levels
 * **must** be able to drag & drop nodes (configurable)
 * **must** be able to copy nodes on drop (either via dialogue or keyboard modifier)
