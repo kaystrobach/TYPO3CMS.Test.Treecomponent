@@ -7,19 +7,22 @@ This repository should serve as a R&D matrix to evaluate different **Javascript 
 
 Currently implemented:
 ======================
-* jsTree (jstree.com)
+* exampleTree (http://linkToWebsite.tld)
 
-These are the specs:
+Required specs
+==============
 
 Actions
 -------
 * **should** be able to filter nodes clientside
 * **must** be able to filter nodes serverside
-* **should** be able to support mountpoints
+* **should** be able to support multiple tree-roots/mountpoints
 * **must** be able to display a context menu with 2 levels
 * **must** be able to drag & drop nodes (configurable)
+* **must** be able to copy nodes on drop (either via dialogue or keyboard modifier)
 * **must** be able to add new nodes
 * **must** be able to support a tree refresh, preferably on a regular basis without user interaction
+* **must** be able to rename nodes inline
 
 Interactions
 ------------
@@ -40,7 +43,7 @@ Developer
 Scalability
 -----------
 * **must** be able to get subnodes via ajax
-* **must** should be usable with 10000 nodes visible at a time
+* **must** be usable with 10000 nodes visible at a time
 
 How to contribute
 =================
@@ -62,4 +65,4 @@ Just set up a database and import the data.
 Change the credentials in config.php to reflect the user/password of your mysql database.
 
 Call "Web/doesItWork.php" in your browser to make sure you get some data.
-Be patient because the deliver more than 9000 pages.
+Be patient because we deliver more than 9000 pages.
