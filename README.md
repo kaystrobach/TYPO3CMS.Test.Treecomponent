@@ -3,7 +3,7 @@ TYPO3CMS.Test.Treecomponent
 
 Testing infrastructure for a generic tree component for TYPO3 CMS.
 
-This repository should serve as a R&D matrix to evaluate different *Javascript Tree Components* for future use within TYPO3 CMS.
+This repository should serve as a R&D matrix to evaluate different _Javascript Tree Components_ for future use within TYPO3 CMS.
 
 These are the specs:
 
