@@ -5,6 +5,10 @@ Testing infrastructure for a generic tree component for TYPO3 CMS.
 
 This repository should serve as a R&D matrix to evaluate different **Javascript Tree Components** for future use within TYPO3 CMS.
 
+Currently implemented:
+======================
+* jsTree (jstree.com)
+
 These are the specs:
 
 Actions
@@ -41,3 +45,21 @@ Scalability
 How to contribute
 =================
 
+Add a folder beneath "Web" and give it a name according to the library you are using.
+Add all the files however you see fit, but keep an index.html that sets links to all scenarios you supply.
+When you are finished, add to this file in order to make easily visible what you tested.
+
+How to set it up
+================
+
+We supply a database dump of a fictional pages table.
+This used to be a real world table that we stripped of fields we deem not necessary and scrambled the data.
+Apart from that we kept the original uid/pid relations in order to supply an as-close-to-reality scenario as possible.
+The pagetree is roughly 9000 pages in size.
+We chose this example because we needed a rather huge sample in order to do the benchmarks right.
+
+Just set up a database and import the data.
+Change the credentials in config.php to reflect the user/password of your mysql database.
+
+Call "Web/doesItWork.php" in your browser to make sure you get some data.
+Be patient because the deliver more than 9000 pages.
